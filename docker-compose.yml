@@ -7,5 +7,5 @@ services:
       - PUID=1028
       - PGID=65536
     volumes:
-      - volume1/docker/sldl:/config
-      - volume1/Data:/data
+      - volume1/docker/sldl:/config:rw
+      - volume1/Data:/data:rw
